@@ -1,8 +1,10 @@
 class SList<E> {
-    private Link<E> headLink = new Link<E>(null);
-    SListIterator<E> iterator() { return new SListIterator<E>(headLink); }
+    private Link<E> head = new Link<E>(null);
+    SListIterator<E> iterator() {
+        return new SListIterator<E>(head);
+    }
     public String toString() {
-        if(headLink.next == null) {
+        if(head.next == null) {
             return "SList: []";
         }
         System.out.print("SList: [");
