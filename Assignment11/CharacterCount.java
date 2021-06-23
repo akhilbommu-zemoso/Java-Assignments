@@ -27,7 +27,6 @@ public class CharacterCount {
     }
 
     public static void main(String[] args) throws IOException {
-        // Creation of file descriptor for input file
         File file = new File("src/Assignment11/input.txt");
         CharacterCount obj = new CharacterCount();
         obj.characterCount(file);
