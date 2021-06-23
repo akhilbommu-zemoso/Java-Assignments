@@ -1,0 +1,1 @@
+In file handling reading files based on the character is asked frequently in core java interviews. The following program is how to read files based on a character by character and displaying the result.
