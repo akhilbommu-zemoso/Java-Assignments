@@ -1,7 +1,6 @@
 package Assignment6;
 
 import java.util.Arrays;
-import java.util.HashSet;
 
 public class VampireNumbers {
     private static int numDigits(long num){
